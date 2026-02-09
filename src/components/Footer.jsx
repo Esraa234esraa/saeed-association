@@ -27,8 +27,10 @@ function Footer() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+          
           {/* Brand & Bio */}
-          <div className="md:col-span-2 flex flex-col items-center md:items-start text-center md:text-left  ">
+          <div className="md:col-span-2 flex flex-col items-center md:items-start text-center md:text-left">
+            
             {/* Logo */}
             <div className="flex items-center justify-center md:justify-start">
               <img
@@ -38,8 +40,21 @@ function Footer() {
               />
             </div>
 
+            {/* Partner Logos */}
+            <div className="flex items-center gap-4 mt-6 justify-center md:justify-start">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEiGpEysm4gIwNYmjEyH-xX0HInZ57uylhz0NuTAx8Mw&s=10"
+                alt="شريك 1"
+                className="h-12 sm:h-16 object-contain"
+              />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxJqPc02feg4Kw9w78YkKq86UI9aCbAr88K6SSHkjKvQ&s=10"                alt="شريك 2"
+                className="h-12 sm:h-16 object-contain"
+              />
+            </div>
+
             {/* Description */}
-            <p className="text-gray-400 text-start leading-relaxed mb-6 max-w-md text-base sm:text-lg md:text-xl">
+            <p className="text-gray-400 text-start leading-relaxed mb-6 max-w-md text-base sm:text-lg md:text-xl mt-4">
               جمعية رائدة تسعى لتمكين التعليم وبناء مجتمع معرفي مستدام من خلال
               مبادرات نوعية وشراكات استراتيجية.
             </p>
@@ -91,7 +106,6 @@ function Footer() {
                   الأنشطة والبرامج
                 </Link>
               </li>
-           
               <li>
                 <Link
                   to="/contact"
