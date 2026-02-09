@@ -53,7 +53,7 @@ export default function GoalsSection() {
   };
 
   return (
-    <section className="py-20 bg-gray-50" dir="rtl">
+    <section id="goals" className="py-20 bg-gray-50" dir="rtl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#25343F] mb-4 font-dubai">
