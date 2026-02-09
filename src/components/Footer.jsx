@@ -33,12 +33,20 @@ function Footer() {
             
             {/* Logo */}
             <div className="flex items-center justify-center md:justify-start">
-              <img
-  className="w-32 sm:w-40 md:w-64 lg:w-72"
-  src="/lightLogo.svg"
-  alt="شعار الجمعية"
-/>
-            </div>
+  <img
+    className="
+      w-[70%] 
+      aspect-square 
+      object-contain 
+      mx-auto
+      sm:w-56
+      md:w-64
+      lg:w-72
+    "
+    src="/lightLogo.svg"
+    alt="شعار الجمعية"
+  />
+</div>
 
             {/* Partner Logos */}
           <div className="flex items-center gap-4 mt-6 justify-center md:justify-start">
