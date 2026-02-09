@@ -22,84 +22,61 @@ const XIcon = ({ className }) => (
 function Footer() {
   return (
     <footer
-      className="bg-[#1f2b34] text-white pt-16 pb-8 border-t border-gray-800"
+      className="bg-[#1f2b34] text-white pt-12 md:pt-16 pb-8 border-t border-gray-800"
       dir="rtl"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
-          
+
           {/* Brand & Bio */}
-          {/* Brand & Bio */}
-<div className="md:col-span-2 flex flex-col items-center md:items-start text-center md:text-left">
+          <div className="md:col-span-2 flex flex-col items-center md:items-start text-center md:text-left">
 
-  {/* Main Logo */}
-  <div className="w-full flex justify-center md:justify-start mb-4">
-    <img
-      className="
-        w-[75%] 
-        max-w-[260px]
-        aspect-square
-        object-contain
-        sm:w-56
-        md:w-64
-        lg:w-72
-      "
-      src="/lightLogo.svg"
-      alt="شعار الجمعية"
-    />
-  </div>
+            {/* Main Logo */}
+            <div className="w-full flex justify-center md:justify-start mb-4">
+              <img
+                className="
+                  w-[75%]
+                  max-w-[260px]
+                  aspect-square
+                  object-contain
+                  sm:w-56
+                  md:w-64
+                  lg:w-72
+                "
+                src="/lightLogo.svg"
+                alt="شعار الجمعية"
+              />
+            </div>
 
-  {/* Partner Logos */}
-  <div className="flex items-center justify-center md:justify-start gap-4 mb-6">
-    <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEiGpEysm4gIwNYmjEyH-xX0HInZ57uylhz0NuTAx8Mw&s=10"
-      alt="شريك 1"
-      className="
-        w-24
-        sm:w-28
-        md:w-32
-        lg:w-36
-        object-contain
-      "
-    />
-    <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxJqPc02feg4Kw9w78YkKq86UI9aCbAr88K6SSHkjKvQ&s=10"
-      alt="شريك 2"
-      className="
-        w-24
-        sm:w-28
-        md:w-32
-        lg:w-36
-        object-contain
-      "
-    />
-  </div>
-
-  {/* Description */}
-  <p className="text-gray-400 leading-relaxed mb-6 max-w-md text-base sm:text-lg md:text-xl">
-    جمعية رائدة تسعى لتمكين التعليم وبناء مجتمع معرفي مستدام من خلال
-    مبادرات نوعية وشراكات استراتيجية.
-  </p>
-
-  {/* Social Icons */}
-  <div className="flex gap-4">
-    <a
-      href="https://x.com/saeedalm1447"
-      className="bg-[#25343F] p-3 rounded-full hover:bg-[#BB9661] transition-colors"
-    >
-      <XIcon className="h-6 w-6" />
-    </a>
-    <a
-      href="https://www.youtube.com/@saeed.alm.1447"
-      className="bg-[#25343F] p-3 rounded-full hover:bg-[#F15D4C] transition-colors"
-    >
-      <Youtube className="h-6 w-6" />
-    </a>
-  </div>
-</div>
+            {/* Partner Logos */}
+            <div className="flex items-center justify-center md:justify-start gap-4 mb-6">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEiGpEysm4gIwNYmjEyH-xX0HInZ57uylhz0NuTAx8Mw&s=10"
+                alt="شريك 1"
+                className="
+                  w-24
+                  sm:w-28
+                  md:w-32
+                  lg:w-36
+                  object-contain
+                "
+              />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxJqPc02feg4Kw9w78YkKq86UI9aCbAr88K6SSHkjKvQ&s=10"
+                alt="شريك 2"
+                className="
+                  w-24
+                  sm:w-28
+                  md:w-32
+                  lg:w-36
+                  object-contain
+                "
+              />
+            </div>
 
             {/* Description */}
-            <p className="text-gray-400 text-start leading-relaxed mb-6 max-w-md text-base sm:text-lg md:text-xl mt-4">
+            <p className="text-gray-400 leading-relaxed mb-6 max-w-md text-base sm:text-lg md:text-xl">
               جمعية رائدة تسعى لتمكين التعليم وبناء مجتمع معرفي مستدام من خلال
               مبادرات نوعية وشراكات استراتيجية.
             </p>
@@ -110,13 +87,13 @@ function Footer() {
                 href="https://x.com/saeedalm1447"
                 className="bg-[#25343F] p-3 rounded-full hover:bg-[#BB9661] transition-colors"
               >
-                <XIcon className="h-5 w-5 sm:h-6 sm:w-6" />
+                <XIcon className="h-6 w-6" />
               </a>
               <a
                 href="https://www.youtube.com/@saeed.alm.1447"
                 className="bg-[#25343F] p-3 rounded-full hover:bg-[#F15D4C] transition-colors"
               >
-                <Youtube className="h-5 w-5 sm:h-6 sm:w-6" />
+                <Youtube className="h-6 w-6" />
               </a>
             </div>
           </div>
@@ -170,9 +147,7 @@ function Footer() {
             <ul className="space-y-4 text-gray-400">
               <li className="flex items-start gap-3">
                 <span className="text-white font-medium">الهاتف:</span>
-                <span dir="ltr" className="text-right">
-                  0590595916
-                </span>
+                <span dir="ltr">0590595916</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-white font-medium">البريد:</span>
