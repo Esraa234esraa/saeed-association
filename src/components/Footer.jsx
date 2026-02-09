@@ -34,24 +34,25 @@ function Footer() {
             {/* Logo */}
             <div className="flex items-center justify-center md:justify-start">
               <img
-                className="w-24 sm:w-28 md:w-56"
-                src="/lightLogo.svg"
-                alt="شعار الجمعية"
-              />
+  className="w-32 sm:w-40 md:w-64 lg:w-72"
+  src="/lightLogo.svg"
+  alt="شعار الجمعية"
+/>
             </div>
 
             {/* Partner Logos */}
-            <div className="flex items-center gap-4 mt-6 justify-center md:justify-start">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEiGpEysm4gIwNYmjEyH-xX0HInZ57uylhz0NuTAx8Mw&s=10"
-                alt="شريك 1"
-                className="h-12 sm:h-16 object-contain"
-              />
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxJqPc02feg4Kw9w78YkKq86UI9aCbAr88K6SSHkjKvQ&s=10"                alt="شريك 2"
-                className="h-12 sm:h-16 object-contain"
-              />
-            </div>
+          <div className="flex items-center gap-4 mt-6 justify-center md:justify-start">
+  <img
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEiGpEysm4gIwNYmjEyH-xX0HInZ57uylhz0NuTAx8Mw&s=10"
+    alt="شريك 1"
+    className="h-16 sm:h-20 md:h-24 lg:h-28 object-contain"
+  />
+  <img
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxJqPc02feg4Kw9w78YkKq86UI9aCbAr88K6SSHkjKvQ&s=10"
+    alt="شريك 2"
+    className="h-16 sm:h-20 md:h-24 lg:h-28 object-contain"
+  />
+</div>
 
             {/* Description */}
             <p className="text-gray-400 text-start leading-relaxed mb-6 max-w-md text-base sm:text-lg md:text-xl mt-4">
