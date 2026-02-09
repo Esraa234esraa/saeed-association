@@ -11,7 +11,7 @@ function Header() {
     { name: 'الرئيسية', href: '/' },
     { name: 'عن الجمعية', href: '/#about' },
     { name: 'الأنشطة', href: '/#activities' },
-    { name: 'الأخبار', href: '/#news' },
+    { name: 'الاهداف', href: '/#goals' },
     { name: 'اتصل بنا', href: '/#contact' }
   ];
 
