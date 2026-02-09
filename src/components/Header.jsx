@@ -72,10 +72,7 @@ function Header() {
                   {item.name}
                 </a>
               ))}
-              <div className="px-4 py-2">
-                <Button className="w-full bg-[#BB9661] hover:bg-[#a38253] text-[#25343F] font-bold">
-                  تبرع الآن
-                </Button>
+              
               </div>
             </div>
           </div>
